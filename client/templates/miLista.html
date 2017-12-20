@@ -12,6 +12,11 @@
           <ion-checkbox ng-checked="producto.comprar" ng-click="comprado(producto)">
             <ion-label>{{producto.nombre}}</ion-label>
           </ion-checkbox>
+ 		
+		<button id="miLista-button21" ng-click="borrado(producto)" style="width:20%; float:right;" class="icon-center ion-trash-a ion-4 button button-balanced button-small button-block">
+        <ion-icon ios="logo-freebsd-devil" md="logo-freebsd-devil"></ion-icon>
+    </button>
+ 
         </ion-item>
     </ion-list>
     <button id="miLista-button20" ng-click="todoComprado()" class="button button-balanced button-small button-block">Todo comprado</button>
